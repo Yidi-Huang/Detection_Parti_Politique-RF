@@ -1,0 +1,17 @@
+HP : n_estimators=100, max_depth=90
+
+Corpus : fr
+Classification Report:
+               precision    recall  f1-score   support
+
+        ELDR       1.00      0.54      0.70      1339
+     GUE-NGL       0.97      0.69      0.81      1793
+      PPE-DE       0.60      0.96      0.74      4571
+         PSE       0.87      0.65      0.75      3627
+   Verts-ALE       1.00      0.55      0.71      1585
+
+    accuracy                           0.74     12915
+   macro avg       0.89      0.68      0.74     12915
+weighted avg       0.82      0.74      0.74     12915
+
+
