@@ -16,8 +16,8 @@ Proposer un (des) classifieur(s) pour cette tâche, étudier ses (leurs) perform
     - Outils : **spaCy** 
     - Script : `Scripts/prétraitement.py`
     - Données : `corpus_prétraité/`
-3. Entraînement des modèles (classifieur)
+3. Entraînement et évaluation des modèles (classifieur)
     1. **Modèle 1** : Régression logistique
         - Script : `Scripts/classifieur_lg`
-        - Résultat (image) : `résultats/martice_de_confusion_lg` <br>
-    Résultat (Métriques) : `résultats/rapport_classification_lg`
+        - Résultat d'évaluation (image) : `résultats/martice_de_confusion_lg` <br>
+    Résultat d'évaluation (Métriques) : `résultats/rapport_classification_lg`
