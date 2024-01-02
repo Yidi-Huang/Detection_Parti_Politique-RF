@@ -43,7 +43,11 @@ model.fit(X_train, y_train)
 predictions = model.predict(X_test)
 
 # Affichage du rapport de classification
-print(classification_report(y_test, predictions))
+report = classification_report(y_test, predictions)
+print(report)
+# Stocker le rapport de classification dans un fichier
+with open('./résultats/rapport_classification.txt', 'w') as file:
+    file.write(report)
 
 # Création de la matrice de confusion
 conf_matrix = confusion_matrix(y_test, predictions)
