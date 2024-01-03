@@ -2,7 +2,7 @@
 Projet pour *Apprentissage artificiel*
 
 ### Contribueurs du groupe
-> CHENG Weixuan, GUI Kexin, Huang Yidi
+> CHENG Weixuan, GUI Kexin, HUANG Yidi
 
 
 ## Objectif  
