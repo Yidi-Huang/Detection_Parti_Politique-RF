@@ -1,13 +1,10 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, f1_score
-from sklearn.decomposition import TruncatedSVD
-from sklearn.pipeline import make_pipeline
+from sklearn.metrics import classification_report, confusion_matrix, f1_score
 from matplotlib.colors import ListedColormap
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
 
 ####################### entraînement du modèle régression logistique #####################################
 def process_and_evaluate(X_train, X_test, y_train, y_test, description):
@@ -60,8 +57,8 @@ def plot_learning_curve(X_train, y_train, X_test, y_test, description):
     plt.xlabel('Value of C')
     plt.ylabel('F1 Score')
     plt.title('Learning Curve')
+    plt.legend(loc='lower right')
     plt.savefig(f'./résultats/Régression_logistique/courbe_d_apprentissage_{description}_RL.png', bbox_inches='tight', dpi=300)
-    plt.legend(loc=2)
     plt.show()
 
 ########################## Chargement des données pour chaque langue #######################################
@@ -113,9 +110,9 @@ def load_combined_data():
 
 ########################### Appel des fonctions ############################################################
 # Pour chaque langue
-# for lang in ['en', 'fr', 'it']:
-#     X_train, X_test, y_train, y_test = load_data(lang)
-#     process_and_evaluate(X_train, X_test, y_train, y_test, lang)
+for lang in ['en', 'fr', 'it']:
+    X_train, X_test, y_train, y_test = load_data(lang)
+    process_and_evaluate(X_train, X_test, y_train, y_test, lang)
 
 # Traiter l'ensemble combiné de toutes les langues
 X_train_combined, X_test_combined, y_train_combined, y_test_combined = load_combined_data()
