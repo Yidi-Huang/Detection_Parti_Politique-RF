@@ -1,7 +1,7 @@
 # Apprentissage-artificiel
 Projet pour *Apprentissage artificiel*
 
-### Contribueurs du groupe
+### Contributeurs du groupe
 > CHENG Weixuan, GUI Kexin, HUANG Yidi
 
 
@@ -30,4 +30,7 @@ Proposer un (des) classifieur(s) pour cette tâche, étudier ses (leurs) perform
     3. **Modèle 3** : SVM
       - Script : `Scripts/SVM.ipynb`
       - Résultat d'évaluation (Métriques) : `résultats/SVM/*` 
-     
+
+
+## Conclusion
+Voir le rapport et les détails sur : https://github.com/kexingui/apprentissage-artificiel     
