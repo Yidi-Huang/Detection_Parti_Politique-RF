@@ -26,3 +26,6 @@ Proposer un (des) classifieur(s) pour cette tâche, étudier ses (leurs) perform
     Résultat d'évaluation (Métriques) : `résultats/Régression_logistique/rapport_classification_*`
     2. **Modèle 2** : Random forest
     3. **Modèle 3** : SVM
+      - Script : `Scripts/SVM.ipynb`
+      - Résultat d'évaluation (Métriques) : `résultats/SVM/*` 
+     
