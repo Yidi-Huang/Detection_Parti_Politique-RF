@@ -25,6 +25,8 @@ Proposer un (des) classifieur(s) pour cette tâche, étudier ses (leurs) perform
         - Résultat d'évaluation (image) : `résultats/Régression_logistique/martice_de_confusion_*` <br>
     Résultat d'évaluation (Métriques) : `résultats/Régression_logistique/rapport_classification_*`
     2. **Modèle 2** : Random forest
+        - Script : `Scripts/RndomForest.ipynb`
+        - Résultat d'évaluation : `résultats/RandomForest/RandomForest_resultats.txt`
     3. **Modèle 3** : SVM
       - Script : `Scripts/SVM.ipynb`
       - Résultat d'évaluation  : `résultats/SVM/*` 
