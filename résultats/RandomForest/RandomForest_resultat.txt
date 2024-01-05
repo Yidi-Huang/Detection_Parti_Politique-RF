@@ -1,0 +1,56 @@
+Fr : 
+Classification Report:
+               precision    recall  f1-score   support
+
+        ELDR       1.00      0.59      0.74      1339
+     GUE-NGL       0.97      0.72      0.83      1793
+      PPE-DE       0.63      0.95      0.76      4571
+         PSE       0.84      0.68      0.75      3627
+   Verts-ALE       1.00      0.60      0.75      1585
+
+    accuracy                           0.76     12915
+   macro avg       0.89      0.71      0.77     12915
+weighted avg       0.82      0.76      0.76     12915
+
+En : 
+Classification Report:
+               precision    recall  f1-score   support
+
+        ELDR       0.99      0.61      0.75      1339
+     GUE-NGL       0.97      0.72      0.82      1792
+      PPE-DE       0.64      0.95      0.77      4570
+         PSE       0.83      0.69      0.75      3627
+   Verts-ALE       1.00      0.60      0.75      1585
+
+    accuracy                           0.77     12913
+   macro avg       0.89      0.71      0.77     12913
+weighted avg       0.82      0.77      0.77     12913
+
+It :
+Classification Report:
+               precision    recall  f1-score   support
+
+        ELDR       1.00      0.59      0.74      1339
+     GUE-NGL       0.98      0.71      0.82      1793
+      PPE-DE       0.63      0.96      0.76      4571
+         PSE       0.84      0.69      0.75      3627
+   Verts-ALE       1.00      0.60      0.75      1585
+
+    accuracy                           0.76     12915
+   macro avg       0.89      0.71      0.77     12915
+weighted avg       0.82      0.76      0.76     12915
+
+Multilingue : 
+Classification Report:
+               precision    recall  f1-score   support
+
+        ELDR       1.00      0.55      0.71      4017
+     GUE-NGL       0.98      0.68      0.80      5378
+      PPE-DE       0.60      0.97      0.74     13712
+         PSE       0.87      0.65      0.75     10881
+   Verts-ALE       1.00      0.54      0.70      4755
+
+    accuracy                           0.74     38743
+   macro avg       0.89      0.68      0.74     38743
+weighted avg       0.82      0.74      0.74     38743
+
