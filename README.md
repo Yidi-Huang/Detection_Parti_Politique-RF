@@ -28,8 +28,8 @@ Proposer un (des) classifieur(s) pour cette tâche, étudier ses (leurs) perform
         - Script : `Scripts/RndomForest.ipynb`
         - Résultat d'évaluation : `résultats/RandomForest/RandomForest_resultats.txt`
     3. **Modèle 3** : SVM
-      - Script : `Scripts/SVM.ipynb`
-      - Résultat d'évaluation  : `résultats/SVM/*` 
+        - Script : `Scripts/SVM.ipynb`
+        - Résultat d'évaluation  : `résultats/SVM/*` 
      
 
 
